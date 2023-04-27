@@ -1,58 +1,80 @@
 {
-    "Title": "Campus Life on the West Side",
-    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
-    "InitialLocation": "Kresge",
+    "Title": "Tour of the Dark Land",
+    "Credits": "Story by Max Schwab; code by Adam Smith (amsmith@ucsc.edu).",
+    "InitialLocation": "Palace",
     "Locations": {
-        "Kresge": {
-            "Body": "This is Kresge College, lots of nice trees.",
+        "Palace": {
+            "Body": "Palace of the Lord. Abode of the Dark Empress and capital city of the Aeternum Empire",
             "Choices": [
                 {
-                    "Text": "South",
-                    "Target": "Porter"
-                }
-            ]
-        },
-        "Porter": {
-            "Body": "This is Porter College, the trees are nice here too.",
-            "Choices": [
-                {
-                    "Text": "North",
-                    "Target": "Kresge"
+                    "Text": "West",
+                    "Target": "Deepwoods"
                 },
                 {
                     "Text": "South",
-                    "Target": "Rachel Carson"
+                    "Target": "Port"
                 }
             ]
         },
-        "Rachel Carson": {
-            "Body": "Rachel Carson College, more sun and fewer trees.",
+        "Deepwoods": {
+            "Body": "The mysterious Deepwoods. The ground plummets yet trees grow ever taller. Spiders' holy songs carry from within",
             "Choices": [
                 {
                     "Text": "North",
-                    "Target": "Porter"
+                    "Target": "Plains"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Oakes"
+                    "Text": "West",
+                    "Target": "Wall"
                 }
             ]
         },
-        "Oakes": {
-            "Body": "Oakes College, even the buildings have tree bark on them.",
+        "Port": {
+            "Body": "The bustling Port town greets you. A hub of commerce and culture, but someting ominous waits in the shadows.",
             "Choices": [
                 {
                     "Text": "North",
-                    "Target": "Rachel Carson"
+                    "Target": "Palace"
+                }
+            ]
+        },
+        "Wall": {
+            "Body": "A great wall crests across the horizon marrying mountain to sea. It's imposing silhouette is marred by a gaping wound in its chest. What creature could have done this?",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Fortress"
                 },
                 {
+                    "Text": "East",
+                    "Target": "Deepwoods"
+                }
+            ]
+        },
+        "Plains": {
+            "Body": "Great plains of grass, animals, and rubble of kingdoms past.",
+            "Choices": [
+                {
                     "Text": "South",
+                    "Target": "Deepwoods"
+                }
+            ]
+        },
+        "Fortress": {
+            "Body": "A stern fortress nestled in the mountain range, the only way through. It's walls are cold and impenetrable, or so you hope.",
+            "Choices": [
+                {
+                    "Text": "West",
                     "Target": "Beyond"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Wall"
                 }
             ]
         },
         "Beyond": {
-            "Body": "Grass, don't forget to check for ticks!"
+            "Body": "Beyond lies the enemy. You're not ready, Leichra."
         }
     }
 }
